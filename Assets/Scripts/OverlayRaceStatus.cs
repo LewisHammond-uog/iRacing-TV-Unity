@@ -21,6 +21,7 @@ public class OverlayRaceStatus : MonoBehaviour
 	public GameObject greenFlag;
 	public GameObject yellowFlag;
 	public GameObject checkeredFlag;
+	public GameObject oneToGreen;
 
 	[NonSerialized] public TextMeshProUGUI textLayer1_Text;
 	[NonSerialized] public TextMeshProUGUI textLayer2_Text;
@@ -66,6 +67,8 @@ public class OverlayRaceStatus : MonoBehaviour
 			greenFlag.SetActive( LiveData.Instance.liveDataRaceStatus.showGreenFlag );
 			yellowFlag.SetActive( LiveData.Instance.liveDataRaceStatus.showYellowFlag );
 			checkeredFlag.SetActive( LiveData.Instance.liveDataRaceStatus.showCheckeredFlag );
+
+			oneToGreen.SetActive( LiveData.Instance.liveDataRaceStatus.showOneToGreen );
 		}
 	}
 }

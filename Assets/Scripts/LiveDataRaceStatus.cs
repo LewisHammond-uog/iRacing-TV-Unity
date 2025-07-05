@@ -17,4 +17,6 @@ public class LiveDataRaceStatus
 	public bool showGreenFlag = false;
 	public bool showYellowFlag = false;
 	public bool showCheckeredFlag = false;
+
+	public bool showOneToGreen = false;
 }
