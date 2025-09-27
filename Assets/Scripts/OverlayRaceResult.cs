@@ -125,6 +125,13 @@ public class OverlayRaceResult : MonoBehaviour
 
 				overlayRaceResultSlot.textLayer4_Text.text = liveDataRaceResultSlot.textLayer4;
 				overlayRaceResultSlot.textLayer4.SetColor( liveDataRaceResultSlot.textLayer4Color );
+				
+				overlayRaceResultSlot.textLayer5_Text.text = liveDataRaceResultSlot.textLayer5;
+				overlayRaceResultSlot.textLayer5.SetColor( liveDataRaceResultSlot.textLayer5Color );
+				
+				overlayRaceResultSlot.textLayer6_Text.text = liveDataRaceResultSlot.textLayer6;
+				overlayRaceResultSlot.textLayer6.SetColor( liveDataRaceResultSlot.textLayer6Color );
+
 
 				// preferred car
 

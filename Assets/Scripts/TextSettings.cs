@@ -10,6 +10,9 @@ public class TextSettings : MonoBehaviour
 {
 	public string id = string.Empty;
 
+	public bool allowResize = true;
+	public bool allowChangeFontSettings = true;
+	
 	[NonSerialized] public RectTransform rectTransform;
 	[NonSerialized] public TextMeshProUGUI text;
 
@@ -63,9 +66,13 @@ public class TextSettings : MonoBehaviour
 				{
 					text.enabled = true;
 
+					if (allowChangeFontSettings)
+					{
+						text.fontSize = settings.fontSize;
+						text.alignment = settings.alignment;
+					}
 					text.font = Fonts.GetFontAsset( settings.fontIndex );
-					text.fontSize = settings.fontSize;
-					text.alignment = settings.alignment;
+
 
 					if ( !colorOverridden )
 					{
@@ -74,8 +81,12 @@ public class TextSettings : MonoBehaviour
 
 					text.overflowMode = ( settings.allowOverflow ) ? TextOverflowModes.Overflow : TextOverflowModes.Ellipsis;
 
-					rectTransform.localPosition = new Vector2( settings.position.x, -settings.position.y );
-					rectTransform.sizeDelta = settings.size;
+					if (allowResize)
+					{
+						rectTransform.localPosition = new Vector2( settings.position.x, -settings.position.y );
+						rectTransform.sizeDelta = settings.size;
+					}
+
 
 					border_RectTransform.localPosition = rectTransform.localPosition;
 					border_RectTransform.sizeDelta = rectTransform.sizeDelta;

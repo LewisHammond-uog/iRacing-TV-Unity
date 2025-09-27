@@ -259,6 +259,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer6
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &19030570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,6 +411,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer7
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &40919617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,6 +830,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer6
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &65284396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,6 +972,158 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
+--- !u!1 &68168585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 68168586}
+  - component: {fileID: 68168589}
+  - component: {fileID: 68168588}
+  - component: {fileID: 68168587}
+  m_Layer: 5
+  m_Name: Text Layer 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &68168586
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68168585}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1918382094}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &68168587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68168585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f375ea7c362954a4288e050640656072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: RaceResultPositionTextLayer6
+  allowResize: 1
+  allowChangeFontSettings: 1
+--- !u!114 &68168588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68168585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 21
+  m_fontSizeBase: 21
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &68168589
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68168585}
+  m_CullTransparentMesh: 1
 --- !u!1 &71226509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,6 +1175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer4
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &71226512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1134,7 +1294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &81167928
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1244,6 +1404,8 @@ RectTransform:
   - {fileID: 539446645}
   - {fileID: 481244666}
   - {fileID: 1652748981}
+  - {fileID: 1352596653}
+  - {fileID: 1838084168}
   m_Father: {fileID: 2064088914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -1273,6 +1435,8 @@ MonoBehaviour:
   textLayer2: {fileID: 539446646}
   textLayer3: {fileID: 481244667}
   textLayer4: {fileID: 1652748982}
+  textLayer5: {fileID: 1352596654}
+  flagImg: {fileID: 1838084169}
 --- !u!1 &82884357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1515,6 +1679,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer12
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &85050638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1754,6 +1920,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom4TextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &96785050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2402,6 +2570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer13
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &165585586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2532,7 +2702,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 319528021}
+  m_Father: {fileID: 1868803203}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -2787,6 +2957,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom3TextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &199145645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3036,6 +3208,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!1 &212027653
 GameObject:
   m_ObjectHideFlags: 0
@@ -3087,6 +3261,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusTextLayer4
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &212027656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3237,6 +3413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroDriverTextLayer4
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &212358136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3476,6 +3654,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer15
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &223974229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3626,6 +3806,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &228792295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3865,6 +4047,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer11
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &259715466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4104,6 +4288,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &269469859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4298,6 +4484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer6
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &282790467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4543,7 +4731,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &319528021
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4556,12 +4744,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1423274093}
   - {fileID: 1868803203}
-  - {fileID: 185627239}
   - {fileID: 19003382}
-  - {fileID: 957255206}
-  - {fileID: 1271619744}
-  - {fileID: 568340801}
   m_Father: {fileID: 976406652}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -4764,6 +4949,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &372252310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5038,6 +5225,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer7
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &390454314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5376,6 +5565,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Subtitles
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!1 &417964414
 GameObject:
   m_ObjectHideFlags: 0
@@ -5516,6 +5707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer9
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &435096638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5827,6 +6020,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer4
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &467427495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6018,6 +6213,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer4
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &471385368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6261,6 +6458,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionTextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &481244668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6652,6 +6851,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &539446647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6788,7 +6989,6 @@ RectTransform:
   - {fileID: 1910956763}
   - {fileID: 504394163}
   - {fileID: 2140832870}
-  - {fileID: 939110760}
   - {fileID: 132193236}
   - {fileID: 1877245541}
   - {fileID: 730103406}
@@ -7017,12 +7217,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 319528021}
+  m_Father: {fileID: 1423274093}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1189, y: -249}
+  m_SizeDelta: {x: 367.1, y: 567.63}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &568340802
 MonoBehaviour:
@@ -7037,6 +7237,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom1TextLayer3
+  allowResize: 0
+  allowChangeFontSettings: 0
 --- !u!114 &568340803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7087,12 +7289,12 @@ MonoBehaviour:
   m_fontSize: 27
   m_fontSizeBase: 27
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -7187,6 +7389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom3TextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &572495704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7337,6 +7541,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &583082783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7612,6 +7818,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: VoiceOfTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &588213073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7750,6 +7958,158 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
+--- !u!1 &623761296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 623761297}
+  - component: {fileID: 623761300}
+  - component: {fileID: 623761299}
+  - component: {fileID: 623761298}
+  m_Layer: 5
+  m_Name: Text Layer 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &623761297
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623761296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1918382094}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &623761298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623761296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f375ea7c362954a4288e050640656072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: RaceResultPositionTextLayer5
+  allowResize: 1
+  allowChangeFontSettings: 1
+--- !u!114 &623761299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623761296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 21
+  m_fontSizeBase: 21
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &623761300
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623761296}
+  m_CullTransparentMesh: 1
 --- !u!1 &628262418
 GameObject:
   m_ObjectHideFlags: 0
@@ -7801,6 +8161,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultPositionTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &628262421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7951,6 +8313,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer9
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &633987597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8157,7 +8521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &672746146
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8279,6 +8643,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &676479176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8785,6 +9151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom6TextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &706903353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9261,6 +9629,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer16
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &782628378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9411,6 +9781,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultPositionTextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &790789857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9561,6 +9933,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroDriverTextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &798690248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9711,6 +10085,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &820010556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10002,6 +10378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer14
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &855090363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10152,6 +10530,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer5
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &857019766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10302,6 +10682,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer8
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &863645457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10541,6 +10923,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom5TextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &883662857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10869,6 +11253,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer15
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &927098704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11170,17 +11556,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939110759}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 615233398}
-  m_Father: {fileID: 555473212}
+  m_Father: {fileID: 1423274093}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 383.31006, y: -208.19974}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &939110761
@@ -11430,6 +11816,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer13
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &948125047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11618,12 +12006,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 319528021}
+  m_Father: {fileID: 1423274093}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -600, y: -41}
+  m_SizeDelta: {x: 1200, y: 84.64}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &957255207
 MonoBehaviour:
@@ -11638,6 +12026,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom1TextLayer1
+  allowResize: 0
+  allowChangeFontSettings: 0
 --- !u!114 &957255208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11688,11 +12078,11 @@ MonoBehaviour:
   m_fontSize: 27
   m_fontSizeBase: 27
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 200
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -11788,6 +12178,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &960074376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11946,6 +12338,11 @@ MonoBehaviour:
   textLayer1: {fileID: 1100564152}
   textLayer2: {fileID: 960074373}
   slotTemplate: {fileID: 81443885}
+  flagImgs:
+  - {fileID: 21300000, guid: c974aa97217bcf645a3293e27ac12112, type: 3}
+  - {fileID: 21300000, guid: 44193537313cd07499675fe33119310e, type: 3}
+  - {fileID: 21300000, guid: 3c426eca0c5873e458f58c8c600c8f07, type: 3}
+  - {fileID: 21300000, guid: 5bd2ea8359106ee46bedb1806e3e8a87, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -12368,6 +12765,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusTextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &985877066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12518,6 +12917,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionCurrentTargetTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &991068807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12757,6 +13158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: VoiceOfTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &999897171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12907,6 +13310,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom6TextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1004519188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13171,7 +13576,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1010225104
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13293,6 +13698,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer7
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1019782201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13679,6 +14086,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom3TextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1046460867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14062,6 +14471,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: PitLaneCarTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1084004450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14212,6 +14623,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1100564155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14451,6 +14864,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroDriverTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1112818400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14601,6 +15016,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroDriverTextLayer6
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1114040583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14789,6 +15206,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom2TextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1125678303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15028,6 +15447,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom6TextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1142358381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15267,6 +15688,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer13
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1176632095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15648,6 +16071,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer10
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1198178018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15798,6 +16223,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1198742655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16215,6 +16642,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom2TextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1212932524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16559,7 +16988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1242690104
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16599,7 +17028,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242690103}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -16681,6 +17110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom5TextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1243914530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16831,6 +17262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom2TextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1252280226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16961,12 +17394,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 319528021}
+  m_Father: {fileID: 1423274093}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -600, y: -150}
+  m_SizeDelta: {x: 1200, y: 54.67}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1271619745
 MonoBehaviour:
@@ -16981,6 +17414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom1TextLayer2
+  allowResize: 0
+  allowChangeFontSettings: 0
 --- !u!114 &1271619746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17031,11 +17466,11 @@ MonoBehaviour:
   m_fontSize: 27
   m_fontSizeBase: 27
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -17487,6 +17922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1328037400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17726,6 +18163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer9
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1351945850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17825,6 +18264,158 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351945847}
   m_CullTransparentMesh: 1
+--- !u!1 &1352596652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352596653}
+  - component: {fileID: 1352596656}
+  - component: {fileID: 1352596655}
+  - component: {fileID: 1352596654}
+  m_Layer: 5
+  m_Name: Text Layer 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1352596653
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352596652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 81443886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1352596654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352596652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f375ea7c362954a4288e050640656072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: LeaderboardPositionTextLayer5
+  allowResize: 1
+  allowChangeFontSettings: 1
+--- !u!114 &1352596655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352596652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7112018158308578245, guid: e6959c1a1bd22cf4babf0947eba0e371, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 21
+  m_fontSizeBase: 21
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 1
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1352596656
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352596652}
+  m_CullTransparentMesh: 1
 --- !u!1 &1358127360
 GameObject:
   m_ObjectHideFlags: 0
@@ -17876,6 +18467,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom4TextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1358127363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18026,6 +18619,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultPositionTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1373826989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18188,6 +18783,85 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &1423274092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423274093}
+  - component: {fileID: 1423274095}
+  - component: {fileID: 1423274094}
+  m_Layer: 5
+  m_Name: BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1423274093
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423274092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 957255206}
+  - {fileID: 1271619744}
+  - {fileID: 568340801}
+  - {fileID: 939110760}
+  m_Father: {fileID: 319528021}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1237, y: -727}
+  m_SizeDelta: {x: 1658.82, y: 913.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1423274094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423274092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.36477977, g: 0, b: 0.31267813, a: 0.5137255}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1423274095
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423274092}
+  m_CullTransparentMesh: 1
 --- !u!1 &1431306310
 GameObject:
   m_ObjectHideFlags: 0
@@ -18239,6 +18913,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudSpeechToText
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1431306313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18389,6 +19065,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer11
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1441676987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18539,6 +19217,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer15
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1443783068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18867,6 +19547,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom5TextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1489747751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19017,6 +19699,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: TrainerCountdown
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1496002181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19167,6 +19851,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1503496843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19317,6 +20003,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer10
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1509881923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19767,6 +20455,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusTextLayer2
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1533772429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20136,6 +20826,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultPositionTextLayer4
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1570235355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20322,6 +21014,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer8
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1577749886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20708,6 +21402,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroDriverTextLayer5
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1600812349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21266,6 +21962,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionTextLayer4
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1652748983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21542,6 +22240,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: TrainerMessage
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1700684188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22685,6 +23385,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer12
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1832746229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22784,6 +23486,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832746226}
   m_CullTransparentMesh: 1
+--- !u!1 &1838084167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1838084168}
+  - component: {fileID: 1838084170}
+  - component: {fileID: 1838084169}
+  m_Layer: 5
+  m_Name: Flag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1838084168
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838084167}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 81443886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 340.30008, y: -25}
+  m_SizeDelta: {x: 32, y: 25}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1838084169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838084167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1838084170
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838084167}
+  m_CullTransparentMesh: 1
 --- !u!1 &1844832346
 GameObject:
   m_ObjectHideFlags: 0
@@ -22835,6 +23612,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer11
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1844832349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23053,7 +23832,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 185627239}
   m_Father: {fileID: 319528021}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -23221,6 +24001,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer14
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1877569514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23460,6 +24242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer8
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1892189074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23723,6 +24507,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer12
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1899124703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23873,6 +24659,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer10
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1901917624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24081,6 +24869,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronTextLayer3
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1910545526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24378,6 +25168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer5
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1917515120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24515,6 +25307,8 @@ RectTransform:
   - {fileID: 1373826987}
   - {fileID: 790789855}
   - {fileID: 1570235353}
+  - {fileID: 623761297}
+  - {fileID: 68168586}
   m_Father: {fileID: 974785345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -24542,6 +25336,8 @@ MonoBehaviour:
   textLayer2: {fileID: 1373826988}
   textLayer3: {fileID: 790789856}
   textLayer4: {fileID: 1570235354}
+  textLayer5: {fileID: 623761298}
+  textLayer6: {fileID: 68168587}
 --- !u!1 &1921889863
 GameObject:
   m_ObjectHideFlags: 0
@@ -24934,6 +25730,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroDriverTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &1957734341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25599,6 +26397,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!1 &2001668393
 GameObject:
   m_ObjectHideFlags: 0
@@ -25617,7 +26417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2001668394
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25650,6 +26450,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: TrackMapCarTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &2001668396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26120,6 +26922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronTextLayer5
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &2042376901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26490,6 +27294,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &2070771616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26729,6 +27535,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudTextLayer14
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &2089110261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26879,6 +27687,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom4TextLayer1
+  allowResize: 1
+  allowChangeFontSettings: 1
 --- !u!114 &2100969165
 MonoBehaviour:
   m_ObjectHideFlags: 0

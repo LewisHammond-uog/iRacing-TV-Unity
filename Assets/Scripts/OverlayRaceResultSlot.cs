@@ -15,6 +15,8 @@ public class OverlayRaceResultSlot : MonoBehaviour
 	public TextSettings textLayer2;
 	public TextSettings textLayer3;
 	public TextSettings textLayer4;
+	public TextSettings textLayer5;
+	public TextSettings textLayer6;
 
 	[NonSerialized] public ImageSettings preferredCar_ImageSettings;
 	[NonSerialized] public ImageSettings layer1_ImageSettings;
@@ -24,6 +26,8 @@ public class OverlayRaceResultSlot : MonoBehaviour
 	[NonSerialized] public TextMeshProUGUI textLayer2_Text;
 	[NonSerialized] public TextMeshProUGUI textLayer3_Text;
 	[NonSerialized] public TextMeshProUGUI textLayer4_Text;
+	[NonSerialized] public TextMeshProUGUI textLayer5_Text;
+	[NonSerialized] public TextMeshProUGUI textLayer6_Text;
 
 	public void Awake()
 	{
@@ -35,5 +39,7 @@ public class OverlayRaceResultSlot : MonoBehaviour
 		textLayer2_Text = textLayer2.GetComponent<TextMeshProUGUI>();
 		textLayer3_Text = textLayer3.GetComponent<TextMeshProUGUI>();
 		textLayer4_Text = textLayer4.GetComponent<TextMeshProUGUI>();
+		textLayer5_Text = textLayer5.GetComponent<TextMeshProUGUI>();
+		textLayer6_Text = textLayer6.GetComponent<TextMeshProUGUI>();
 	}
 }

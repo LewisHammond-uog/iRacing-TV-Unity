@@ -4,6 +4,7 @@ using System;
 using UnityEngine;
 
 using TMPro;
+using UnityEngine.UI;
 
 public class OverlayLeaderboard : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class OverlayLeaderboard : MonoBehaviour
 	public GameObject textLayer2;
 	public GameObject slotTemplate;
 
+
+
 	[NonSerialized] public ImageSettings background_ImageSettings;
 	[NonSerialized] public ImageSettings layer1_ImageSettings;
 	[NonSerialized] public ImageSettings layer2_ImageSettings;
@@ -34,6 +37,8 @@ public class OverlayLeaderboard : MonoBehaviour
 
 	[NonSerialized] public long indexSettings;
 	[NonSerialized] public long indexLiveData;
+
+	[SerializeField] public Sprite[] flagImgs;
 
 	public void Awake()
 	{
@@ -104,7 +109,7 @@ public class OverlayLeaderboard : MonoBehaviour
 
 			for ( var slotIndex = 0; slotIndex < LiveData.MaxNumDrivers; slotIndex++ )
 			{
-				var liveDataLeaderboardSlot = liveDataLeaderboard.liveDataLeaderboardSlots[ slotIndex ];
+				LiveDataLeaderboardSlot liveDataLeaderboardSlot = liveDataLeaderboard.liveDataLeaderboardSlots[ slotIndex ];
 
 				var overlayLeaderboardSlot = overlayLeaderboardSlots[ slotIndex ];
 
@@ -140,6 +145,31 @@ public class OverlayLeaderboard : MonoBehaviour
 
 				overlayLeaderboardSlot.textLayer4_Text.text = liveDataLeaderboardSlot.textLayer4;
 				overlayLeaderboardSlot.textLayer4.SetColor( liveDataLeaderboardSlot.textLayer4Color );
+				
+				overlayLeaderboardSlot.textLayer5_Text.text = liveDataLeaderboardSlot.textLayer5;
+				overlayLeaderboardSlot.textLayer5.SetColor( liveDataLeaderboardSlot.textLayer5Color );
+
+
+				if (liveDataLeaderboardSlot.finished)
+				{
+					overlayLeaderboardSlot.SetFlagImage(flagImgs[0]);
+				}
+				else if (liveDataLeaderboardSlot.meatballFlag)
+				{
+					overlayLeaderboardSlot.SetFlagImage(flagImgs[1]);
+				}
+				else if (liveDataLeaderboardSlot.penaltyFlag)
+				{
+					overlayLeaderboardSlot.SetFlagImage(flagImgs[2]);
+				}
+				else if (liveDataLeaderboardSlot.slowDownFlag)
+				{
+					overlayLeaderboardSlot.SetFlagImage(flagImgs[3]);
+				}
+				else
+				{
+					overlayLeaderboardSlot.SetFlagImage(null);
+				}
 
 				// current target
 

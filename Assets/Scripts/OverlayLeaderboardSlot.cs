@@ -4,6 +4,7 @@ using System;
 using UnityEngine;
 
 using TMPro;
+using UnityEngine.UI;
 
 public class OverlayLeaderboardSlot : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class OverlayLeaderboardSlot : MonoBehaviour
 	public TextSettings textLayer2;
 	public TextSettings textLayer3;
 	public TextSettings textLayer4;
+	public TextSettings textLayer5;
 
 	[NonSerialized] public ImageSettings preferredCar_ImageSettings;
 	[NonSerialized] public ImageSettings currentTarget_ImageSettings;
@@ -28,7 +30,10 @@ public class OverlayLeaderboardSlot : MonoBehaviour
 	[NonSerialized] public TextMeshProUGUI textLayer2_Text;
 	[NonSerialized] public TextMeshProUGUI textLayer3_Text;
 	[NonSerialized] public TextMeshProUGUI textLayer4_Text;
+	[NonSerialized] public TextMeshProUGUI textLayer5_Text;
 
+	[SerializeField] public Image flagImg;
+	
 	public void Awake()
 	{
 		preferredCar_ImageSettings = preferredCar.GetComponent<ImageSettings>();
@@ -41,5 +46,18 @@ public class OverlayLeaderboardSlot : MonoBehaviour
 		textLayer2_Text = textLayer2.GetComponent<TextMeshProUGUI>();
 		textLayer3_Text = textLayer3.GetComponent<TextMeshProUGUI>();
 		textLayer4_Text = textLayer4.GetComponent<TextMeshProUGUI>();
+		textLayer5_Text = textLayer5.GetComponent<TextMeshProUGUI>();
+	}
+
+	public void SetFlagImage(Sprite flag)
+	{
+		if (flagImg == null)
+		{
+			Debug.LogWarning("No flag image!!!");
+			return;
+		}
+		
+		flagImg.enabled = flag != null;
+		flagImg.sprite = flag;
 	}
 }

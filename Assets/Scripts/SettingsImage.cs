@@ -20,7 +20,8 @@ public class SettingsImage
 		MemberID_A = 9,
 		MemberID_B = 10,
 		MemberID_C = 11,
-		TrackLogo = 12
+		TrackLogo = 12,
+		TrackImage = 13,
 	}
 
 	public ImageType imageType = ImageType.None;

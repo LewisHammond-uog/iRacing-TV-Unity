@@ -34,6 +34,7 @@ public class LiveData
 
 	public string seriesLogoTextureUrl = string.Empty;
 	public string trackLogoTextureUrl = string.Empty;
+	public string trackTextureUrl = string.Empty;
 
 	static LiveData()
 	{

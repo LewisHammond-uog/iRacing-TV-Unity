@@ -322,6 +322,10 @@ public class ImageSettings : MonoBehaviour
 			case SettingsImage.ImageType.ImageFile:
 				newTexture = fallbackTexture;
 				break;
+			
+			case SettingsImage.ImageType.TrackImage:
+				//newTexture = StreamingTextures.trackImageStreamedTexture.GetTexture();
+				break;
 
 			case SettingsImage.ImageType.SeriesLogo:
 				newTexture = StreamingTextures.seriesLogoStreamedTexture.GetTexture();
