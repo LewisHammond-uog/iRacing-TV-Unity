@@ -53,7 +53,6 @@
     <Compile Include="Assets\Scripts\LiveDataControlPanel.cs" />
     <Compile Include="Assets\Scripts\Border.cs" />
     <Compile Include="Assets\Scripts\SettingsText.cs" />
-    <Compile Include="Assets\Scripts\UnityMainThreadDispatcher.cs" />
     <Compile Include="Assets\Scripts\LiveDataWebcamStreaming.cs" />
     <Compile Include="Assets\OpenVR\openvr_api.cs" />
     <Compile Include="Assets\Scripts\Settings.cs" />
