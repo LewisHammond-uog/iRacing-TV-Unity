@@ -5,6 +5,7 @@ using System.IO;
 using System.IO.MemoryMappedFiles;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Serialization;
 
 using UnityEngine;
@@ -111,40 +112,67 @@ public class IPC : MonoBehaviour
 		return false;
 	}
 
-	public bool UpdateLiveData()
-	{
-		var index = memoryMappedViewAccessorLiveData.ReadInt64( 0 );
+	private static readonly XmlSerializer _xmlSerializer = new XmlSerializer(typeof(LiveData));
+	private  byte[] _buffer = new byte[65536]; // preallocate a reasonably large buffer (adjust size)
+	private  MemoryStream _memoryStream = new MemoryStream();
+	
+	private readonly object _deserializeLock = new object(); // protect reuse of stream
+	
+	private static readonly XmlSerializer _serializer = new XmlSerializer(typeof(LiveData));
 
-		if ( index != indexLiveData )
-		{
-			var signalReceived = mutexLiveData.WaitOne( 250 );
+public bool UpdateLiveData()
+    {
+        var index = memoryMappedViewAccessorLiveData.ReadInt64(0);
+        if (index == indexLiveData)
+            return false;
 
-			if ( signalReceived )
-			{
-				var size = memoryMappedViewAccessorLiveData.ReadUInt32( 8 );
+        if (!mutexLiveData.WaitOne(250))
+            return false;
 
-				var buffer = new byte[ size ];
+        try
+        {
+            var size = memoryMappedViewAccessorLiveData.ReadUInt32(8);
 
-				memoryMappedViewAccessorLiveData.ReadArray( 12, buffer, 0, buffer.Length );
+            // Ensure buffer is large enough
+            if (_buffer.Length < size)
+                Array.Resize(ref _buffer, (int)size);
 
-				mutexLiveData.ReleaseMutex();
+            memoryMappedViewAccessorLiveData.ReadArray(12, _buffer, 0, (int)size);
 
-				var xmlSerializer = new XmlSerializer( typeof( LiveData ) );
+            // Copy for background thread (avoid sharing mutable buffer)
+            var payload = new byte[size];
+            Buffer.BlockCopy(_buffer, 0, payload, 0, (int)size);
+            
+	        LiveData liveData;
+	        lock (_deserializeLock)
+	        {
+	            _memoryStream.SetLength(0);
+	            _memoryStream.Write(payload, 0, payload.Length);
+	            _memoryStream.Position = 0;
 
-				var memoryStream = new MemoryStream( buffer );
+	            using (var reader = XmlReader.Create(_memoryStream, new XmlReaderSettings
+	            {
+	                IgnoreWhitespace = true,
+	                IgnoreComments = true,
+	                DtdProcessing = DtdProcessing.Ignore
+	            }))
+	            {
+	                liveData = (LiveData)_serializer.Deserialize(reader);
+	            }
+	        }
 
-				var liveData = (LiveData) xmlSerializer.Deserialize( memoryStream );
 
-				LiveData.Instance.Update( liveData );
+	        LiveData.Instance.Update(liveData);
+	        StreamingTextures.CheckForUpdates();
+                    
 
-				StreamingTextures.CheckForUpdates();
 
-				indexLiveData = index;
-
-				return true;
-			}
-		}
-
-		return false;
-	}
+            indexLiveData = index;
+            return true;
+        }
+        finally
+        {
+            mutexLiveData.ReleaseMutex();
+        }
+    }
 }
