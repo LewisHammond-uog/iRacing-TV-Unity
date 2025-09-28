@@ -25,6 +25,8 @@ public class OverlayCustom : MonoBehaviour
 
 	[NonSerialized] public long indexLiveData;
 
+	public bool update = true;
+
 	public void Awake()
 	{
 		layer1_ImageSettings = layer1.GetComponent<ImageSettings>();
@@ -39,7 +41,7 @@ public class OverlayCustom : MonoBehaviour
 	{
 		enable.SetActive( LiveData.Instance.liveDataControlPanel.masterOn && LiveData.Instance.liveDataControlPanel.customLayerOn[ index ] && ipc.isConnected && LiveData.Instance.isConnected );
 
-		if ( indexLiveData != IPC.indexLiveData )
+		if ( indexLiveData != IPC.indexLiveData && update)
 		{
 			indexLiveData = IPC.indexLiveData;
 
