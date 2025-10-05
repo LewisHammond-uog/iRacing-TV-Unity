@@ -34,6 +34,7 @@ public class LiveData
 	public LiveDataCustom[] liveDataCustom = new LiveDataCustom[ MaxNumCustom ];
 	
 	public bool isLiveSessionReplay = false;
+	public int champResultCurrentPage = 0;
 
 
 	public string seriesLogoTextureUrl = string.Empty;

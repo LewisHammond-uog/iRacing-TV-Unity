@@ -87,7 +87,7 @@ public class OverlayChyron : MonoBehaviour
 
 	public void Update()
 	{
-		enable.SetActive(!LiveData.Instance.isLiveSessionReplay && !LiveData.Instance.HasAnyCustomActive() && LiveData.Instance.liveDataControlPanel.masterOn && LiveData.Instance.liveDataControlPanel.chyronOn && LiveData.Instance.liveDataChyron.show && !LiveData.Instance.liveDataIntro.show && !LiveData.Instance.liveDataRaceResult.show && ipc.isConnected && LiveData.Instance.isConnected );
+		enable.SetActive((LiveData.Instance.isLiveSessionReplay || !LiveData.Instance.HasAnyCustomActive()) && LiveData.Instance.liveDataControlPanel.masterOn && LiveData.Instance.liveDataControlPanel.chyronOn && LiveData.Instance.liveDataChyron.show && !LiveData.Instance.liveDataIntro.show && !LiveData.Instance.liveDataRaceResult.show && ipc.isConnected && LiveData.Instance.isConnected );
 
 		if ( indexSettings != IPC.indexSettings )
 		{
