@@ -104,6 +104,11 @@ public class TextSettings : MonoBehaviour
 	{
 		colorOverridden = true;
 
+		if (text == null)
+		{
+			return;
+		}
+		
 		text.color = color;
 	}
 }

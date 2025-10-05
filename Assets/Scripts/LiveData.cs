@@ -11,6 +11,7 @@ public class LiveData
 	public static LiveData Instance { get; private set; }
 
 	public bool isConnected = false;
+
 	public string systemMessage = string.Empty;
 
 	public LiveDataSteamVr liveDataSteamVr = new();
@@ -31,10 +32,31 @@ public class LiveData
 	public LiveDataTrainer liveDataTrainer = new();
 	public LiveDataWebcamStreaming liveDataWebcamStreaming = new();
 	public LiveDataCustom[] liveDataCustom = new LiveDataCustom[ MaxNumCustom ];
+	
+	public bool isLiveSessionReplay = false;
+
 
 	public string seriesLogoTextureUrl = string.Empty;
 	public string trackLogoTextureUrl = string.Empty;
 	public string trackTextureUrl = string.Empty;
+
+	public bool HasAnyCustomActive()
+	{
+		if (Instance.liveDataControlPanel.customLayerOn == null)
+		{
+			return false;
+		}
+		
+		foreach (var isOn in LiveData.Instance.liveDataControlPanel.customLayerOn)
+		{
+			if (isOn)
+			{
+				return true;
+			}
+		}
+
+		return false;
+	}
 
 	static LiveData()
 	{

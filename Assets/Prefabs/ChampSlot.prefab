@@ -623,95 +623,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ipc: {fileID: 0}
---- !u!1 &5477202639269602424
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4016371485785764894}
-  - component: {fileID: 7776326808108185062}
-  - component: {fileID: 2406196606741590886}
-  - component: {fileID: 526189826226777681}
-  m_Layer: 5
-  m_Name: Layer 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &4016371485785764894
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5477202639269602424}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8599023678598060439}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -780, y: -10}
-  m_SizeDelta: {x: 50, y: 50}
-  m_Pivot: {x: 0, y: 1}
---- !u!222 &7776326808108185062
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5477202639269602424}
-  m_CullTransparentMesh: 1
---- !u!114 &2406196606741590886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5477202639269602424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!114 &526189826226777681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5477202639269602424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75c71f8e530df3f4ca4b58e60d58a52e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: RaceResultPositionLayer1
 --- !u!1 &5820255960658448687
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,7 +634,6 @@ GameObject:
   - component: {fileID: 5210267811998362882}
   - component: {fileID: 4284933385278437022}
   - component: {fileID: 2881769705461500871}
-  - component: {fileID: 6978051875612279031}
   m_Layer: 5
   m_Name: Text Layer 1
   m_TagString: Untagged
@@ -747,7 +657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -854, y: -0}
+  m_AnchoredPosition: {x: -854, y: 7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &4284933385278437022
@@ -780,8 +690,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 8th
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 923f1999cb2e70c4381e2ed5fdfcd4a2, type: 2}
+  m_sharedMaterial: {fileID: -4284616432160258334, guid: 923f1999cb2e70c4381e2ed5fdfcd4a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -849,21 +759,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &6978051875612279031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5820255960658448687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f375ea7c362954a4288e050640656072, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: RaceResultPositionTextLayer1
-  allowResize: 1
-  allowChangeFontSettings: 1
 --- !u!1 &6423381223273259573
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,7 +948,6 @@ GameObject:
   - component: {fileID: 2064835933383839526}
   - component: {fileID: 3453206898102895751}
   - component: {fileID: 7166894444343994545}
-  - component: {fileID: 3779225609379366302}
   m_Layer: 5
   m_Name: Text Layer 3
   m_TagString: Untagged
@@ -1110,8 +1004,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jon Ludbrook (P)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: cc1ce4b859009124aa84cfded73adc6c, type: 2}
+  m_sharedMaterial: {fileID: 1877099146824934448, guid: cc1ce4b859009124aa84cfded73adc6c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1179,21 +1073,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &3779225609379366302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7067465275860846594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f375ea7c362954a4288e050640656072, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: RaceResultPositionTextLayer3
-  allowResize: 1
-  allowChangeFontSettings: 1
 --- !u!1 &7427253719883923673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,7 +1440,6 @@ GameObject:
   - component: {fileID: 8158974413409131148}
   - component: {fileID: 6019635429747575780}
   - component: {fileID: 1038752661131795377}
-  - component: {fileID: 3683206775335724640}
   m_Layer: 5
   m_Name: Text Layer 4
   m_TagString: Untagged
@@ -1616,17 +1494,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DNF
+  m_text: 1000
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 72929b348035595429fd406f10a0d5a1, type: 2}
+  m_sharedMaterial: {fileID: -2961358554329892884, guid: 72929b348035595429fd406f10a0d5a1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289836464
-  m_fontColor: {r: 0.69, g: 0.71, b: 0.694, a: 1}
+    rgba: 4293717228
+  m_fontColor: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1687,21 +1565,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &3683206775335724640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7620104207406017614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f375ea7c362954a4288e050640656072, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: RaceResultPositionTextLayer4
-  allowResize: 1
-  allowChangeFontSettings: 1
 --- !u!1 &7756850679234973006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,7 +1576,6 @@ GameObject:
   - component: {fileID: 522789956828259740}
   - component: {fileID: 7023274038158715355}
   - component: {fileID: 5905736705595516057}
-  - component: {fileID: 3917626731690942816}
   m_Layer: 5
   m_Name: Text Layer 5
   m_TagString: Untagged
@@ -1768,10 +1630,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0 PTS
+  m_text: -500
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: cc9e248e6f0f5ba49a772265d4fd4c16, type: 2}
+  m_sharedMaterial: {fileID: -1394219430815171572, guid: cc9e248e6f0f5ba49a772265d4fd4c16, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1839,21 +1701,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &3917626731690942816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7756850679234973006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f375ea7c362954a4288e050640656072, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: RaceResultPositionTextLayer5
-  allowResize: 1
-  allowChangeFontSettings: 1
 --- !u!1 &7884007539787239893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,7 +1710,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8599023678598060439}
-  - component: {fileID: 4841998444444680676}
+  - component: {fileID: 7710120357682373831}
   m_Layer: 5
   m_Name: ChampSlot
   m_TagString: Untagged
@@ -1878,14 +1725,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7884007539787239893}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1830267791864220085}
   - {fileID: 6154731475184590349}
-  - {fileID: 4016371485785764894}
   - {fileID: 1762705644015378248}
   - {fileID: 5648741762094278582}
   - {fileID: 5210267811998362882}
@@ -1908,10 +1754,10 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 12, y: -886}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &4841998444444680676
+--- !u!114 &7710120357682373831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1920,19 +1766,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 7884007539787239893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98bc205a8d806614e981b91886942079, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f57489d0c3340fda0715a54d6bafc3e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  preferredCar: {fileID: 3924819048758395101}
-  layer1: {fileID: 5477202639269602424}
-  layer2: {fileID: 7598321147471571096}
-  layer3: {fileID: 2807251545654847898}
-  textLayer1: {fileID: 6978051875612279031}
-  textLayer2: {fileID: 641584083607620833}
-  textLayer3: {fileID: 3779225609379366302}
-  textLayer4: {fileID: 3683206775335724640}
-  textLayer5: {fileID: 3917626731690942816}
-  textLayer6: {fileID: 9112675421321420757}
+  m_EditorClassIdentifier: Assembly-CSharp::Data.ChampSlot
+  posText: {fileID: 2881769705461500871}
+  nameText: {fileID: 7166894444343994545}
+  numText: {fileID: 3467427331051643395}
+  pointsText: {fileID: 1038752661131795377}
+  pointsDiffText: {fileID: 5905736705595516057}
 --- !u!1 &8171036405250943561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1944,7 +1785,6 @@ GameObject:
   - component: {fileID: 6188553269425456090}
   - component: {fileID: 6540254068621379935}
   - component: {fileID: 3467427331051643395}
-  - component: {fileID: 641584083607620833}
   m_Layer: 5
   m_Name: Text Layer 2
   m_TagString: Untagged
@@ -1968,7 +1808,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -800, y: -12}
+  m_AnchoredPosition: {x: -777, y: -12}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &6540254068621379935
@@ -2001,8 +1841,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 14
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: cc1ce4b859009124aa84cfded73adc6c, type: 2}
+  m_sharedMaterial: {fileID: 1877099146824934448, guid: cc1ce4b859009124aa84cfded73adc6c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2026,8 +1866,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21
-  m_fontSizeBase: 21
+  m_fontSize: 45.04
+  m_fontSizeBase: 45.04
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2070,21 +1910,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &641584083607620833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8171036405250943561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f375ea7c362954a4288e050640656072, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: RaceResultPositionTextLayer2
-  allowResize: 1
-  allowChangeFontSettings: 1
 --- !u!1 &8189914903609447629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2185,7 +2010,6 @@ GameObject:
   - component: {fileID: 6003492960896467553}
   - component: {fileID: 6591581907438368864}
   - component: {fileID: 7083958887778441457}
-  - component: {fileID: 9112675421321420757}
   m_Layer: 5
   m_Name: Text Layer 6
   m_TagString: Untagged
@@ -2242,8 +2066,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2311,18 +2135,3 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &9112675421321420757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8299343470237022074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f375ea7c362954a4288e050640656072, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: RaceResultPositionTextLayer6
-  allowResize: 1
-  allowChangeFontSettings: 1
