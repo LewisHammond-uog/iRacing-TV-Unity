@@ -6,7 +6,7 @@ using System.IO.MemoryMappedFiles;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
-
+using U8Xml;
 using UnityEngine;
 
 public class IPC : MonoBehaviour
@@ -111,13 +111,16 @@ public class IPC : MonoBehaviour
 		return false;
 	}
 
+	private static readonly XmlSerializer serializer = new XmlSerializer(typeof(LiveData));
+	private static readonly MemoryStream memoryStream = new MemoryStream();
+	
 	public bool UpdateLiveData()
 	{
 		var index = memoryMappedViewAccessorLiveData.ReadInt64( 0 );
 
 		if ( index != indexLiveData )
 		{
-			var signalReceived = mutexLiveData.WaitOne( 250 );
+			var signalReceived = mutexLiveData.WaitOne( 1 );
 
 			if ( signalReceived )
 			{
@@ -129,18 +132,17 @@ public class IPC : MonoBehaviour
 
 				mutexLiveData.ReleaseMutex();
 
-				var xmlSerializer = new XmlSerializer( typeof( LiveData ) );
+				memoryStream.Write(buffer);
 
-				var memoryStream = new MemoryStream( buffer );
-
-				var liveData = (LiveData) xmlSerializer.Deserialize( memoryStream );
+				var liveData = (LiveData) serializer.Deserialize( memoryStream );
 
 				LiveData.Instance.Update( liveData );
 
 				StreamingTextures.CheckForUpdates();
 
 				indexLiveData = index;
-
+				memoryStream.Flush();
+				
 				return true;
 			}
 		}
