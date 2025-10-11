@@ -49,6 +49,7 @@
     <Compile Include="Assets\Scripts\OverlayBattleChyron.cs" />
     <Compile Include="Assets\Scripts\SteamVROverlay.cs" />
     <Compile Include="Assets\Scripts\SettingsImage.cs" />
+    <Compile Include="Assets\Scripts\OverlayLapDelta.cs" />
     <Compile Include="Assets\Scripts\OverlayTrackMapCar.cs" />
     <Compile Include="Assets\Scripts\LiveDataControlPanel.cs" />
     <Compile Include="Assets\Scripts\Data\StandingsPage.cs" />
@@ -57,7 +58,6 @@
     <Compile Include="Assets\Scripts\LiveDataWebcamStreaming.cs" />
     <Compile Include="Assets\OpenVR\openvr_api.cs" />
     <Compile Include="Assets\Scripts\Settings.cs" />
-    <Compile Include="Assets\Scripts\OverlayHud.cs" />
     <Compile Include="Assets\Scripts\IPC.cs" />
     <Compile Include="Assets\Scripts\OverlayRaceResult.cs" />
     <Compile Include="Assets\Scripts\LiveDataDriver.cs" />
@@ -83,8 +83,8 @@
     <Compile Include="Assets\Scripts\OverlayRaceStatus.cs" />
     <Compile Include="Assets\Scripts\LiveDataHud.cs" />
     <Compile Include="Assets\Scripts\LiveDataRaceResultSlot.cs" />
+    <Compile Include="Assets\Scripts\LiveDataLapComp.cs" />
     <Compile Include="Assets\Scripts\Data\ChampDisplay.cs" />
-    <Compile Include="Assets\Scripts\BidirectionalStreaming.cs" />
     <Compile Include="Assets\Scripts\OverlayTrackMap.cs" />
     <Compile Include="Assets\Scripts\TextSettings.cs" />
     <Compile Include="Assets\Scripts\LiveDataSteamVr.cs" />
@@ -98,7 +98,6 @@
     <Compile Include="Assets\Scripts\WinApi.cs" />
     <Compile Include="Assets\Scripts\OverlayRaceResultSlot.cs" />
     <Compile Include="Assets\Scripts\StreamedTexture.cs" />
-    <Compile Include="Assets\Scripts\OverlayTrainer.cs" />
     <Compile Include="Assets\Scripts\Data\StandingsProcessor.cs" />
     <Compile Include="Assets\Scripts\OverlayVoiceOf.cs" />
     <Compile Include="Assets\Scripts\OverlayCustom.cs" />

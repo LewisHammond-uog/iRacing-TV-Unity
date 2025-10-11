@@ -41,7 +41,7 @@ public class OverlayRaceStatus : MonoBehaviour
 
 	public void Update()
 	{
-		enable.SetActive(!LiveData.Instance.isLiveSessionReplay && !LiveData.Instance.HasAnyCustomActive()  && LiveData.Instance.liveDataControlPanel.masterOn && LiveData.Instance.liveDataControlPanel.raceStatusOn && !LiveData.Instance.liveDataIntro.show && !LiveData.Instance.liveDataRaceResult.show && ipc.isConnected && LiveData.Instance.isConnected );
+		enable.SetActive(!LiveData.Instance.isLiveSessionReplay && !LiveData.Instance.HasAnyBlockingCustomActive()  && LiveData.Instance.liveDataControlPanel.masterOn && LiveData.Instance.liveDataControlPanel.raceStatusOn && !LiveData.Instance.liveDataIntro.show && !LiveData.Instance.liveDataRaceResult.show && ipc.isConnected && LiveData.Instance.isConnected );
 
 		if ( indexSettings != IPC.indexSettings )
 		{

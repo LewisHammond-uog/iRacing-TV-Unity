@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Xml.Serialization;
 
 [Serializable]
 public class LiveData
@@ -28,28 +29,46 @@ public class LiveData
 	public LiveDataStartLights liveDataStartLights = new();
 	public LiveDataTrackMap liveDataTrackMap = new();
 	public LiveDataPitLane liveDataPitLane = new();
-	public LiveDataHud liveDataHud = new();
-	public LiveDataTrainer liveDataTrainer = new();
-	public LiveDataWebcamStreaming liveDataWebcamStreaming = new();
+	//public LiveDataHud liveDataHud = new();
+	//public LiveDataTrainer liveDataTrainer = new();
+	//public LiveDataWebcamStreaming liveDataWebcamStreaming = new();
+
 	public LiveDataCustom[] liveDataCustom = new LiveDataCustom[ MaxNumCustom ];
+
 	
 	public bool isLiveSessionReplay = false;
 	public int champResultCurrentPage = 0;
+	
+		
+	public LiveDataLapComp liveDataLapComp = new(); 
+
 
 
 	public string seriesLogoTextureUrl = string.Empty;
 	public string trackLogoTextureUrl = string.Empty;
 	public string trackTextureUrl = string.Empty;
 
-	public bool HasAnyCustomActive()
+	[XmlIgnore] public bool isLapDeltaActive = false;
+
+	public bool HasAnyBlockingCustomActive()
 	{
 		if (Instance.liveDataControlPanel.customLayerOn == null)
 		{
 			return false;
 		}
-		
-		foreach (var isOn in LiveData.Instance.liveDataControlPanel.customLayerOn)
+
+		isLapDeltaActive = false;
+
+		for (int index = 0; index < LiveData.Instance.liveDataControlPanel.customLayerOn.Length; index++)
 		{
+			//Exclude 4
+			if (index == 4)
+			{
+				isLapDeltaActive = LiveData.Instance.liveDataControlPanel.customLayerOn[index];
+				continue;
+			}
+			
+			bool isOn = LiveData.Instance.liveDataControlPanel.customLayerOn[index];
 			if (isOn)
 			{
 				return true;
@@ -85,9 +104,6 @@ public class LiveData
 		liveDataStartLights = liveData.liveDataStartLights;
 		liveDataTrackMap = liveData.liveDataTrackMap;
 		liveDataPitLane = liveData.liveDataPitLane;
-		liveDataHud = liveData.liveDataHud;
-		liveDataTrainer = liveData.liveDataTrainer;
-		liveDataWebcamStreaming = liveData.liveDataWebcamStreaming;
 		liveDataCustom = liveData.liveDataCustom;
 
 		seriesLogoTextureUrl = liveData.seriesLogoTextureUrl;

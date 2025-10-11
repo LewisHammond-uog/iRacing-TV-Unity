@@ -9,6 +9,8 @@ public class ImageSettings : MonoBehaviour
 {
 	public string id = string.Empty;
 
+	public bool allowSizeChangeNow = true;
+	
 	[NonSerialized] public RectTransform rectTransform;
 	[NonSerialized] public Image image;
 
@@ -247,7 +249,7 @@ public class ImageSettings : MonoBehaviour
 
 			positionOffset = Vector3.zero;
 
-			if ( settings.size == Vector2.zero )
+			if ( settings.size == Vector2.zero && allowSizeChangeNow )
 			{
 				var sourceWidth = ( settings.frameCount > 1 ) ? settings.frameSize.x : texture.width;
 				var sourceHeight = ( settings.frameCount > 1 ) ? settings.frameSize.y : texture.height;
@@ -352,6 +354,12 @@ public class ImageSettings : MonoBehaviour
 				break;
 
 			case SettingsImage.ImageType.Helmet:
+				if (carIdx < 0 || carIdx > StreamingTextures.helmetStreamedTexture.Length)
+				{
+					newTexture = Texture2D.blackTexture;
+					break;
+				}
+				
 				newTexture = StreamingTextures.helmetStreamedTexture[ carIdx ].GetTexture();
 				break;
 

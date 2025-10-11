@@ -208,7 +208,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ImageSettings
   id: LapCompCurrentHelmet
-  allowSizeChangeNow: 0
 --- !u!1 &19003381
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +259,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom1Layer3
-  allowSizeChangeNow: 1
 --- !u!222 &19003385
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -654,7 +652,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultPositionBackground
-  allowSizeChangeNow: 1
 --- !u!114 &42884325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,7 +741,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronBackground
-  allowSizeChangeNow: 1
 --- !u!114 &51032100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -834,7 +830,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &64502687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1421,7 +1416,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: TrackMapCarLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &81167930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,7 +1577,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroBackground
-  allowSizeChangeNow: 1
 --- !u!222 &82884361
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1927,7 +1920,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: StartLightsGo
-  allowSizeChangeNow: 1
 --- !u!114 &96026650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2169,7 +2161,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusGreenFlagLayer1
-  allowSizeChangeNow: 1
 --- !u!222 &113214712
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2259,7 +2250,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom3Layer2
-  allowSizeChangeNow: 1
 --- !u!114 &115064613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2349,7 +2339,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom6Layer3
-  allowSizeChangeNow: 1
 --- !u!114 &125721607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,7 +2428,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronLayer3
-  allowSizeChangeNow: 1
 --- !u!114 &130814065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2863,7 +2851,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardCurrentTarget
-  allowSizeChangeNow: 1
 --- !u!222 &164707921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3316,7 +3303,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom1Layer2
-  allowSizeChangeNow: 1
 --- !u!222 &185627242
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4196,7 +4182,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultPositionPreferredCar
-  allowSizeChangeNow: 1
 --- !u!114 &215684673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4723,7 +4708,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusYellowLight
-  allowSizeChangeNow: 1
 --- !u!222 &254414365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4965,7 +4949,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultBackground
-  allowSizeChangeNow: 1
 --- !u!114 &266734081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5628,7 +5611,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronLayer1
-  allowSizeChangeNow: 1
 --- !u!114 &333148906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6174,7 +6156,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: VoiceOfLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &388276442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6451,7 +6432,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionLayer3
-  allowSizeChangeNow: 1
 --- !u!114 &410889244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6693,7 +6673,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom5Layer1
-  allowSizeChangeNow: 1
 --- !u!114 &417964417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6935,7 +6914,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultLayer1
-  allowSizeChangeNow: 1
 --- !u!114 &443494755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7683,7 +7661,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom4Layer1
-  allowSizeChangeNow: 1
 --- !u!114 &500505640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7773,7 +7750,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom5Layer2
-  allowSizeChangeNow: 1
 --- !u!114 &501096321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7901,7 +7877,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ImageSettings
   id: LapCompAheadHelmet
-  allowSizeChangeNow: 0
 --- !u!1 &504394162
 GameObject:
   m_ObjectHideFlags: 0
@@ -8225,7 +8200,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: PitLaneCarLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &556311625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8315,7 +8289,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: StartLightsReady
-  allowSizeChangeNow: 1
 --- !u!114 &563100877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8918,7 +8891,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronLayer7
-  allowSizeChangeNow: 1
 --- !u!114 &584069924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9965,7 +9937,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ImageSettings
   id: AheadGapOverLaps
-  allowSizeChangeNow: 1
 --- !u!1 &665492608
 GameObject:
   m_ObjectHideFlags: 0
@@ -10017,7 +9988,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: VoiceOfLayer1
-  allowSizeChangeNow: 1
 --- !u!222 &665492612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10137,7 +10107,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: TrackMapCarCurrentTarget
-  allowSizeChangeNow: 1
 --- !u!222 &672746149
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10349,7 +10318,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &688174104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10439,7 +10407,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: TrackMapStartFinishLine
-  allowSizeChangeNow: 1
 --- !u!114 &698327804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10529,7 +10496,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroLayer3
-  allowSizeChangeNow: 1
 --- !u!222 &703434622
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10619,7 +10585,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusCheckeredFlagLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &705105644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10861,7 +10826,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionLayer1
-  allowSizeChangeNow: 1
 --- !u!222 &719647714
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12544,7 +12508,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusLayer1
-  allowSizeChangeNow: 1
 --- !u!222 &867943711
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12922,7 +12885,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroLayer6
-  allowSizeChangeNow: 1
 --- !u!222 &890291762
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13012,7 +12974,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusGreenFlagLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &893775442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13566,7 +13527,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusYellowFlagLayer1
-  allowSizeChangeNow: 1
 --- !u!222 &931599529
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13691,7 +13651,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom2Layer3
-  allowSizeChangeNow: 1
 --- !u!114 &933819548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13912,7 +13871,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroLayer2
-  allowSizeChangeNow: 1
 --- !u!222 &942690944
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14002,7 +13960,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: PitLaneCarLayer1
-  allowSizeChangeNow: 1
 --- !u!114 &945555836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15146,7 +15103,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardBackground
-  allowSizeChangeNow: 1
 --- !u!114 &981032635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15713,7 +15669,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: PitLaneBackground
-  allowSizeChangeNow: 1
 --- !u!114 &994074423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16107,7 +16062,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusGreenLight
-  allowSizeChangeNow: 1
 --- !u!114 &1007705405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16391,7 +16345,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: TrackMapCarLayer1
-  allowSizeChangeNow: 1
 --- !u!114 &1010225106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16827,7 +16780,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronLayer3
-  allowSizeChangeNow: 1
 --- !u!114 &1032874349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16917,7 +16869,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultPositionLayer1
-  allowSizeChangeNow: 1
 --- !u!114 &1034442130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17159,7 +17110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionBackground
-  allowSizeChangeNow: 1
 --- !u!114 &1052403916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17249,7 +17199,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudSpotterIndicatorLeft
-  allowSizeChangeNow: 1
 --- !u!114 &1054058495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17834,7 +17783,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom6Layer2
-  allowSizeChangeNow: 1
 --- !u!114 &1100963024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18554,7 +18502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: TrackMapPaceCar
-  allowSizeChangeNow: 1
 --- !u!114 &1139453847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18932,7 +18879,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom3Layer1
-  allowSizeChangeNow: 1
 --- !u!114 &1158256515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19240,7 +19186,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: SubtitlesBackground
-  allowSizeChangeNow: 1
 --- !u!1 &1197244527
 GameObject:
   m_ObjectHideFlags: 0
@@ -19710,7 +19655,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: VoiceOfBackground
-  allowSizeChangeNow: 1
 --- !u!222 &1198905537
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19800,7 +19744,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultPositionLayer3
-  allowSizeChangeNow: 1
 --- !u!114 &1201223754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19890,7 +19833,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &1208190001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20174,7 +20116,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronLayer5
-  allowSizeChangeNow: 1
 --- !u!114 &1235375160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20361,7 +20302,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusOneToGreen
-  allowSizeChangeNow: 1
 --- !u!114 &1242690106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21051,7 +20991,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusBackground
-  allowSizeChangeNow: 1
 --- !u!114 &1302355152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21133,7 +21072,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardLayer1
-  allowSizeChangeNow: 1
 --- !u!114 &1305145252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21223,7 +21161,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusBlackLight
-  allowSizeChangeNow: 1
 --- !u!222 &1309143484
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21383,7 +21320,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroLayer5
-  allowSizeChangeNow: 1
 --- !u!222 &1325579646
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21702,7 +21638,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronLayer7
-  allowSizeChangeNow: 1
 --- !u!114 &1349770286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23280,7 +23215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom4Layer2
-  allowSizeChangeNow: 1
 --- !u!114 &1449495691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23440,7 +23374,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroLayer4
-  allowSizeChangeNow: 1
 --- !u!222 &1477618961
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24274,7 +24207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudSpotterIndicatorRight
-  allowSizeChangeNow: 1
 --- !u!114 &1515457419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24364,7 +24296,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudBackground
-  allowSizeChangeNow: 1
 --- !u!114 &1525826256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24728,7 +24659,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronBackground
-  allowSizeChangeNow: 1
 --- !u!114 &1535710581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24859,7 +24789,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusYellowFlagLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &1566746930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25423,6 +25352,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe6e80b28ec29be41b357c0951563dea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ipc: {fileID: 1197244529}
+  enable: {fileID: 1074892160}
+  background: {fileID: 1525826253}
+  leftSpotterIndicator: {fileID: 1054058492}
+  rightSpotterIndicator: {fileID: 1515457416}
+  textLayer1: {fileID: 2070771615}
+  textLayer2: {fileID: 1328037399}
+  textLayer3: {fileID: 1198742654}
+  textLayer4: {fileID: 471385367}
+  textLayer5: {fileID: 1917515119}
+  textLayer6: {fileID: 65284395}
+  textLayer7: {fileID: 40919616}
+  textLayer8: {fileID: 1577749885}
+  textLayer9: {fileID: 633987596}
+  textLayer10: {fileID: 1509881922}
+  textLayer11: {fileID: 259715465}
+  textLayer12: {fileID: 85050637}
+  textLayer13: {fileID: 165585585}
+  textLayer14: {fileID: 2089110260}
+  textLayer15: {fileID: 223974228}
+  textLayer16: {fileID: 782628377}
+  speechToTextEnable: {fileID: 583819897}
+  speechToTextMaxSizeContainer: {fileID: 839951302}
+  speechToTextPanel: {fileID: 1968816414}
+  speechToTextText: {fileID: 1431306310}
 --- !u!1 &1594616311
 GameObject:
   m_ObjectHideFlags: 0
@@ -25510,7 +25464,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom2Layer1
-  allowSizeChangeNow: 1
 --- !u!114 &1596370170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25789,7 +25742,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom2Layer2
-  allowSizeChangeNow: 1
 --- !u!114 &1608041807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26021,6 +25973,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6fe6ece4ad05fc408f1dd791ff16a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  signalingManager: {fileID: 1628260106}
+  localVideoImage: {fileID: 1895871912}
+  remoteVideoImage: {fileID: 462432450}
+  audioSource: {fileID: 1628260100}
+  videoStreamSender: {fileID: 1628260103}
+  videoStreamReceiver: {fileID: 1628260104}
+  audioStreamSender: {fileID: 1628260101}
+  audioStreamReceiver: {fileID: 1628260102}
+  singleConnection: {fileID: 1628260105}
 --- !u!82 &1628260100
 AudioSource:
   m_ObjectHideFlags: 0
@@ -26935,7 +26896,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: StartLightsSet
-  allowSizeChangeNow: 1
 --- !u!114 &1677100413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27218,7 +27178,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionPreferredCar
-  allowSizeChangeNow: 1
 --- !u!114 &1703442787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27346,7 +27305,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusWhiteLight
-  allowSizeChangeNow: 1
 --- !u!222 &1713344520
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27436,7 +27394,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &1723120977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27826,7 +27783,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronLayer5
-  allowSizeChangeNow: 1
 --- !u!114 &1772042118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27984,7 +27940,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &1776845570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28074,7 +28029,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronLayer6
-  allowSizeChangeNow: 1
 --- !u!114 &1779545140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29088,7 +29042,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: LeaderboardPositionSplitter
-  allowSizeChangeNow: 1
 --- !u!222 &1862850001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29179,7 +29132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom1Layer1
-  allowSizeChangeNow: 1
 --- !u!222 &1868803206
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29515,7 +29467,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: VoiceOfLayer3
-  allowSizeChangeNow: 1
 --- !u!114 &1891150189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30444,7 +30395,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom5Layer3
-  allowSizeChangeNow: 1
 --- !u!114 &1914528894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30928,7 +30878,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronLayer4
-  allowSizeChangeNow: 1
 --- !u!114 &1924794705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31056,7 +31005,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ImageSettings
   id: LapCompBehindHelmet
-  allowSizeChangeNow: 0
 --- !u!1 &1929932818
 GameObject:
   m_ObjectHideFlags: 0
@@ -31145,7 +31093,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronLayer4
-  allowSizeChangeNow: 1
 --- !u!114 &1934389679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31235,7 +31182,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: IntroLayer1
-  allowSizeChangeNow: 1
 --- !u!222 &1935547988
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31477,7 +31423,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom4Layer3
-  allowSizeChangeNow: 1
 --- !u!114 &1964423386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31743,7 +31688,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: HudSpeechToTextBackground
-  allowSizeChangeNow: 1
 --- !u!114 &1968816417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32473,9 +32417,9 @@ MonoBehaviour:
   enable: {fileID: 206091964}
   plusCol: {r: 0, g: 0, b: 0, a: 0}
   minusCol: {r: 0, g: 0, b: 0, a: 0}
-  aheadHelmetImg: {fileID: 501420519}
-  currentHelmetImg: {fileID: 10151881}
-  behindHelmetImg: {fileID: 1929081140}
+  aheadHelmetImg: {fileID: 0}
+  currentHelmetImg: {fileID: 0}
+  behindHelmetImg: {fileID: 0}
   aheadName: {fileID: 1636486287}
   currentName: {fileID: 1489082944}
   prevName: {fileID: 630868921}
@@ -32554,7 +32498,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom3Layer3
-  allowSizeChangeNow: 1
 --- !u!114 &2017350506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32679,7 +32622,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Custom6Layer1
-  allowSizeChangeNow: 1
 --- !u!114 &2028818952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32769,7 +32711,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ChyronLayer1
-  allowSizeChangeNow: 1
 --- !u!114 &2036044657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32857,6 +32798,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e5bc0db0761a1f4da21beace1eb14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ipc: {fileID: 1197244529}
+  enable: {fileID: 1671547728}
+  message: {fileID: 1700684185}
+  countdown: {fileID: 1496002178}
 --- !u!1 &2042376898
 GameObject:
   m_ObjectHideFlags: 0
@@ -33060,7 +33005,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceStatusCheckeredFlagLayer1
-  allowSizeChangeNow: 1
 --- !u!222 &2054180784
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33246,7 +33190,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: BattleChyronLayer6
-  allowSizeChangeNow: 1
 --- !u!114 &2063719677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33530,7 +33473,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: RaceResultPositionLayer2
-  allowSizeChangeNow: 1
 --- !u!114 &2079423207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33954,7 +33896,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: PitLaneCarCurrentTarget
-  allowSizeChangeNow: 1
 --- !u!222 &2116762964
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -3,11 +3,12 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.IO.MemoryMappedFiles;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
-using U8Xml;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class IPC : MonoBehaviour
 {
@@ -111,38 +112,37 @@ public class IPC : MonoBehaviour
 		return false;
 	}
 
-	private static readonly XmlSerializer serializer = new XmlSerializer(typeof(LiveData));
+	private static XmlSerializer serializer = new XmlSerializer(typeof(LiveData));
 	private static readonly MemoryStream memoryStream = new MemoryStream();
 	
 	public bool UpdateLiveData()
 	{
 		var index = memoryMappedViewAccessorLiveData.ReadInt64( 0 );
 
-		if ( index != indexLiveData )
+		if (index != indexLiveData)
 		{
-			var signalReceived = mutexLiveData.WaitOne( 1 );
+			var signalReceived = mutexLiveData.WaitOne(1);
 
-			if ( signalReceived )
+			if (signalReceived)
 			{
-				var size = memoryMappedViewAccessorLiveData.ReadUInt32( 8 );
+				var size = memoryMappedViewAccessorLiveData.ReadUInt32(8);
+				var buffer = new byte[size];
 
-				var buffer = new byte[ size ];
-
-				memoryMappedViewAccessorLiveData.ReadArray( 12, buffer, 0, buffer.Length );
-
+				memoryMappedViewAccessorLiveData.ReadArray(12, buffer, 0, buffer.Length);
 				mutexLiveData.ReleaseMutex();
 
-				memoryStream.Write(buffer);
+				// Reset and write to memory stream properly
+				memoryStream.SetLength(0);             // clear previous data
+				memoryStream.Write(buffer, 0, buffer.Length);
+				memoryStream.Position = 0;             // <<=== rewind!
 
-				var liveData = (LiveData) serializer.Deserialize( memoryStream );
+				var serializer = new XmlSerializer(typeof(LiveData));
+				var liveData = (LiveData)serializer.Deserialize(memoryStream);
 
-				LiveData.Instance.Update( liveData );
-
+				LiveData.Instance.Update(liveData);
 				StreamingTextures.CheckForUpdates();
 
 				indexLiveData = index;
-				memoryStream.Flush();
-				
 				return true;
 			}
 		}
