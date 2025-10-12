@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AYellowpaper.SerializedColl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderStreaming.EditorTests", "Unity.RenderStreaming.EditorTests.csproj", "{efeb2e3f-46ad-4395-b846-a69f9a344c8c}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{1eed9088-b0dc-eaf6-cec2-d3912d956a45}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{ce1ce805-615f-a10f-1f64-9deca442a3bc}"
 EndProject
 Global
@@ -36,6 +38,8 @@ Global
 		{f70c7871-cdee-365f-aad9-efd4594126a7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{efeb2e3f-46ad-4395-b846-a69f9a344c8c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{efeb2e3f-46ad-4395-b846-a69f9a344c8c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1eed9088-b0dc-eaf6-cec2-d3912d956a45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1eed9088-b0dc-eaf6-cec2-d3912d956a45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ce1ce805-615f-a10f-1f64-9deca442a3bc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ce1ce805-615f-a10f-1f64-9deca442a3bc}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

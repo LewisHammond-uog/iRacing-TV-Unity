@@ -190,7 +190,7 @@ public class ImageSettings : MonoBehaviour
 		setSizeCalled = true;
 		setSize = newSetSize;
 
-		if ( settings != null )
+		if ( settings != null && allowSizeChangeNow)
 		{
 			var finalSize = setSize + settings.size;
 
@@ -267,7 +267,7 @@ public class ImageSettings : MonoBehaviour
 				border_RectTransform.localPosition = rectTransform.localPosition;
 				border_RectTransform.sizeDelta = rectTransform.sizeDelta;
 			}
-			else
+			else if(allowSizeChangeNow)
 			{
 				if ( ( settings.border == Vector4.zero ) && !settings.tilingEnabled )
 				{

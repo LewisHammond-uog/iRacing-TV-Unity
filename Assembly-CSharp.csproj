@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\OverlayStartLights.cs" />
     <Compile Include="Assets\Scripts\LiveDataRaceStatus.cs" />
     <Compile Include="Assets\Scripts\LiveDataRaceResult.cs" />
+    <Compile Include="Assets\EasyTransitions\Scripts\TransitionSettings.cs" />
     <Compile Include="Assets\Scripts\LiveDataTrackMapCar.cs" />
     <Compile Include="Assets\Scripts\LiveDataVoiceOf.cs" />
     <Compile Include="Assets\Scripts\OverlaySubtitle.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\Scripts\OverlayRaceStatus.cs" />
     <Compile Include="Assets\Scripts\LiveDataHud.cs" />
     <Compile Include="Assets\Scripts\LiveDataRaceResultSlot.cs" />
+    <Compile Include="Assets\EasyTransitions\Scripts\TransitionManager.cs" />
     <Compile Include="Assets\Scripts\LiveDataLapComp.cs" />
     <Compile Include="Assets\Scripts\Data\ChampDisplay.cs" />
     <Compile Include="Assets\Scripts\OverlayTrackMap.cs" />
@@ -101,10 +103,12 @@
     <Compile Include="Assets\Scripts\Data\StandingsProcessor.cs" />
     <Compile Include="Assets\Scripts\OverlayVoiceOf.cs" />
     <Compile Include="Assets\Scripts\OverlayCustom.cs" />
+    <Compile Include="Assets\EasyTransitions\Scripts\Transition.cs" />
     <Compile Include="Assets\Scripts\OverlayChyron.cs" />
     <Compile Include="Assets\Scripts\Data\ChampDisplayController.cs" />
     <Compile Include="Assets\Scripts\Data\UnityWebRequestAwaiter.cs" />
     <Compile Include="Assets\Scripts\LiveDataBattleChyron.cs" />
+    <Compile Include="Assets\Scripts\Animations\PlayReplayAnimaion.cs" />
     <Compile Include="Assets\Scripts\LiveDataLeaderboardSlot.cs" />
     <Compile Include="Assets\Scripts\LiveDataPitLane.cs" />
     <Compile Include="Assets\Scripts\OverlayPitLane.cs" />
@@ -115,13 +119,16 @@
     <Compile Include="Assets\Scripts\LiveData.cs" />
     <Compile Include="Assets\Scripts\OverlayIntroDriver.cs" />
     <Compile Include="Assets\Scripts\Data\GoogleSheetsDataProvider.cs" />
+    <Compile Include="Assets\EasyTransitions\Scripts\CutoutMaskUI.cs" />
     <Compile Include="Assets\Scripts\SettingsOverlay.cs" />
     <Compile Include="Assets\Scripts\OverlayIntro.cs" />
+    <Compile Include="Assets\EasyTransitions\Demo\DemoLoadScene.cs" />
     <Compile Include="Assets\Scripts\Program.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\EasyTransitions\Shaders\AdditiveColor.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -135,6 +142,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\EasyTransitions\Shaders\MultiplyColor.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -147,17 +155,11 @@
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AIModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.ARModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
@@ -167,9 +169,6 @@
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClothModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
@@ -252,9 +251,6 @@
     <Reference Include="UnityEngine.PhysicsModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.PropertiesModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
     </Reference>
@@ -282,17 +278,8 @@
     <Reference Include="UnityEngine.SubstanceModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.TLSModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
@@ -303,20 +290,11 @@
     <Reference Include="UnityEngine.TextRenderingModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UIModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
@@ -351,23 +329,11 @@
     <Reference Include="UnityEngine.VFXModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VRModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VirtualTexturingModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.WindModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XRModule">
-      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>

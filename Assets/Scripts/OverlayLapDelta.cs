@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 
@@ -28,11 +29,17 @@ public class OverlayLapDelta : MonoBehaviour
 	[SerializeField] private TMP_Text[] behindLapDiff;
 
 	private long indexLiveData;
-	
+
+	private void Awake()
+	{
+		lapCount = lapCount.Reverse().ToArray();
+		aheadLapDiff = aheadLapDiff.Reverse().ToArray();
+		currentLapDiff = currentLapDiff.Reverse().ToArray();
+		behindLapDiff = behindLapDiff.Reverse().ToArray();
+	}
+
 	private void Update()
 	{
-
-		
 		enable.SetActive(LiveData.Instance.isLapDeltaActive && !LiveData.Instance.isLiveSessionReplay && !LiveData.Instance.HasAnyBlockingCustomActive() && LiveData.Instance.liveDataControlPanel.masterOn  && !LiveData.Instance.liveDataIntro.show && !LiveData.Instance.liveDataRaceResult.show && ipc.isConnected && LiveData.Instance.isConnected );
 
 		var data = LiveData.Instance.liveDataLapComp;
@@ -52,15 +59,41 @@ public class OverlayLapDelta : MonoBehaviour
 				if (data.aheadCarIdX >= 0)
 				{
 					string aheadDiff = data.carAheadLastLapsDiff[i];
-					aheadLapDiff[i].text = aheadDiff;
-					SetColour(aheadLapDiff[i]);
+
+					if (aheadDiff != "-0.000")
+					{
+						aheadLapDiff[i].text = aheadDiff;
+						SetColour(aheadLapDiff[i]);
+					}
+					else
+					{
+						behindLapDiff[i].text = "";
+						behindLapDiff[i].color = Color.black;
+					}
+				}
+				else
+				{
+					aheadLapDiff[i].text = "";
 				}
 
 				if (data.behindCarIdX >= 0)
 				{
 					string behindText = data.carBehindLastLapsDiff[i];
-					behindLapDiff[i].text = behindText;
-					SetColour(behindLapDiff[i]);
+					
+					if(behindText != "-0.000")
+					{
+						behindLapDiff[i].text = behindText;
+						SetColour(behindLapDiff[i]);
+					}
+					else
+					{
+						behindLapDiff[i].text = "";
+						behindLapDiff[i].color = Color.black;
+					}
+				}
+				else
+				{
+					behindLapDiff[i].text = "";
 				}
 
 				currentLapDiff[i].text = data.thisCarLaps[i];
@@ -74,6 +107,11 @@ public class OverlayLapDelta : MonoBehaviour
 
 	private void SetColour(TMP_Text tmp)
 	{
+		if (tmp.text == null)
+		{
+			return;
+		}
+		
 		tmp.color = tmp.text.StartsWith("+") ? plusCol : minusCol;
 	}
 }
