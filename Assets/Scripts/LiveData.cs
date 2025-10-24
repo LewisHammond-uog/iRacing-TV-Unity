@@ -40,7 +40,8 @@ public class LiveData
 	public int champResultCurrentPage = 0;
 	
 		
-	public LiveDataLapComp liveDataLapComp = new(); 
+	public LiveDataLapComp liveDataLapComp = new();
+	//public LiveDataYellows liveDataYellows = new();
 
 
 
@@ -108,5 +109,8 @@ public class LiveData
 
 		seriesLogoTextureUrl = liveData.seriesLogoTextureUrl;
 		trackLogoTextureUrl = liveData.trackLogoTextureUrl;
+
+		champResultCurrentPage = liveData.champResultCurrentPage;
+		isLiveSessionReplay = liveData.isLiveSessionReplay;
 	}
 }

@@ -8,6 +8,7 @@ public class LiveDataRaceStatus
 	public bool showGreenLight = false;
 	public bool showWhiteLight = false;
 	public bool showYellowLight = false;
+	public int yellowSectors = 0;
 
 	public string textLayer1 = string.Empty;
 	public string textLayer2 = string.Empty;

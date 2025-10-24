@@ -1,6 +1,6 @@
 
 using System;
-
+using DefaultNamespace;
 using UnityEngine;
 
 using TMPro;
@@ -8,6 +8,14 @@ using TMPro;
 public class OverlayRaceStatus : MonoBehaviour
 {
 	public IPC ipc;
+	
+	[Flags]
+	public enum SectorFlag
+	{
+		Sector1 = 1,
+		Sector2 = 1 << 1,
+		Sector3 = 1 << 2,
+	}
 
 	public GameObject enable;
 	public GameObject blackLight;
@@ -30,6 +38,8 @@ public class OverlayRaceStatus : MonoBehaviour
 
 	[NonSerialized] public long indexSettings;
 	[NonSerialized] public long indexLiveData;
+
+	[SerializeField] private OverlayYellowFlag yellowmgr;
 
 	public void Awake()
 	{
@@ -69,6 +79,8 @@ public class OverlayRaceStatus : MonoBehaviour
 			checkeredFlag.SetActive( LiveData.Instance.liveDataRaceStatus.showCheckeredFlag );
 
 			oneToGreen.SetActive( LiveData.Instance.liveDataRaceStatus.showOneToGreen );
+			
+			yellowmgr.SetYellowIn((SectorFlag)LiveData.Instance.liveDataRaceStatus.yellowSectors);
 		}
 	}
 }

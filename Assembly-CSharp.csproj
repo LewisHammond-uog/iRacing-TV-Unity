@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\LiveDataTrackMapCar.cs" />
     <Compile Include="Assets\Scripts\LiveDataVoiceOf.cs" />
     <Compile Include="Assets\Scripts\OverlaySubtitle.cs" />
+    <Compile Include="Assets\Scripts\LiveDataYellows.cs" />
     <Compile Include="Assets\Scripts\OverlayPitLaneCar.cs" />
     <Compile Include="Assets\Scripts\OverlayLeaderboard.cs" />
     <Compile Include="Assets\Scripts\OverlaySystemMessage.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="Assets\Scripts\OverlayVoiceOf.cs" />
     <Compile Include="Assets\Scripts\OverlayCustom.cs" />
     <Compile Include="Assets\EasyTransitions\Scripts\Transition.cs" />
+    <Compile Include="Assets\Scripts\OverlayYellowFlag.cs" />
     <Compile Include="Assets\Scripts\OverlayChyron.cs" />
     <Compile Include="Assets\Scripts\Data\ChampDisplayController.cs" />
     <Compile Include="Assets\Scripts\Data\UnityWebRequestAwaiter.cs" />

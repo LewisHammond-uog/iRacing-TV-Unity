@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 2b49479a3677eae44a82db82b0719a32
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: race-status-white-flag_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1095
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac0c9ad7981c56459143a9e876bfb28
+      internalID: -1565262021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1095
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f7f5c16ed5990489dc1f4fdcf19ed9
+      internalID: -856251748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1095
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e8ed0baa22f1a488cd0e1dd0128372
+      internalID: -204425559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1095
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03efbabc9a54db4386e19017a1e4abd
+      internalID: -339405523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_4
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1095
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e1bbae4b519344bb0c74f23c1bb0c5
+      internalID: -1589638948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_5
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1095
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c067c4ce7961b834b84530f7f684f1e9
+      internalID: 24417243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 876
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c5f086ad16be84d8ac8384356d7188
+      internalID: 627530025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 876
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc61595359675c46907a68165a34445
+      internalID: -1084530775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_8
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 876
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176d8de0d338fe44b822b6341edc71e2
+      internalID: -941713810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_9
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 876
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d637be8354a9c46980947998d8aea4
+      internalID: 1266546732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_10
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 876
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c94da2cd01b29244a8959d5ea494f2c
+      internalID: -306739808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_11
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 876
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5470b748a1471408eaf7fbdf4f1cb8
+      internalID: 1615999355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 657
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe7472cfc8190841821b2260fe97e13
+      internalID: 868151838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 657
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f650abddaf33ef4280eecfc62b096a0
+      internalID: 976245206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_14
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 657
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bfb179726ded840b0175674ae0631e
+      internalID: -1766397907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_15
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 657
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eef6f7a9b3e964b8b02173c5dfe1ad
+      internalID: -1893143719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_16
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 657
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db4ef8e9c7fd43409d42a0c957872a1
+      internalID: 1307194023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_17
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 657
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000c9b8d946359d4c94952e7b326ec29
+      internalID: -1674926290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5929739287adf574ab4c85a6fe2da88d
+      internalID: 510611404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_19
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 438
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4bc36a35865584694c1c98b6742536
+      internalID: 1133323155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_20
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 438
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54c50e406b073a42b681181b5e664b2
+      internalID: 715712186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_21
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 438
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc00670fd73315048a005434565e4605
+      internalID: -1889450407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_22
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 438
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73f77387aeebd3428d6c4378c4df250
+      internalID: 1781909852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_23
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 438
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8466b8628789b44939f6da84e2f3c2
+      internalID: 1148844023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd407ac8a31a6f45851cbf96c750c15
+      internalID: -173829610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_25
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 219
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e45e2290b49a3148a5f59572eae69cf
+      internalID: -1662226944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_26
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 219
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42be13f490241344a272fad00d271ff
+      internalID: -930664548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_27
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 219
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0613a26bb7c9f3f4d8891d3baa7286cf
+      internalID: -1674021632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_28
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 219
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff299ca15f3dc254f9fb466f87668794
+      internalID: 519762405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_29
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 219
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ef61cc213de464db971016944b8898
+      internalID: 1377057537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb503a9242c763a428aac8f986018c21
+      internalID: 441691984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_31
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da075bcfad5d36f45ab45d51c08f9b25
+      internalID: -233656794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_32
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c94a25a44d3114bb82b206c00d9b46
+      internalID: 2119998705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_33
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 0
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98855fb3eff0574885e549660b0494f
+      internalID: 1059224951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_34
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 0
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80317596a16d41418cabca7d565350c
+      internalID: -353383156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: race-status-white-flag_35
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 0
+        width: 319
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bfd3ee9a43b744ba12f6ee493cb10f
+      internalID: 660203005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 04860dc569d48de40abcc1258bc34464
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: True
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":true,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":319.0,"y":219.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      race-status-white-flag_0: -1565262021
+      race-status-white-flag_1: -856251748
+      race-status-white-flag_10: -306739808
+      race-status-white-flag_11: 1615999355
+      race-status-white-flag_12: 868151838
+      race-status-white-flag_13: 976245206
+      race-status-white-flag_14: -1766397907
+      race-status-white-flag_15: -1893143719
+      race-status-white-flag_16: 1307194023
+      race-status-white-flag_17: -1674926290
+      race-status-white-flag_18: 510611404
+      race-status-white-flag_19: 1133323155
+      race-status-white-flag_2: -204425559
+      race-status-white-flag_20: 715712186
+      race-status-white-flag_21: -1889450407
+      race-status-white-flag_22: 1781909852
+      race-status-white-flag_23: 1148844023
+      race-status-white-flag_24: -173829610
+      race-status-white-flag_25: -1662226944
+      race-status-white-flag_26: -930664548
+      race-status-white-flag_27: -1674021632
+      race-status-white-flag_28: 519762405
+      race-status-white-flag_29: 1377057537
+      race-status-white-flag_3: -339405523
+      race-status-white-flag_30: 441691984
+      race-status-white-flag_31: -233656794
+      race-status-white-flag_32: 2119998705
+      race-status-white-flag_33: 1059224951
+      race-status-white-flag_34: -353383156
+      race-status-white-flag_35: 660203005
+      race-status-white-flag_4: -1589638948
+      race-status-white-flag_5: 24417243
+      race-status-white-flag_6: 627530025
+      race-status-white-flag_7: -1084530775
+      race-status-white-flag_8: -941713810
+      race-status-white-flag_9: 1266546732
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
