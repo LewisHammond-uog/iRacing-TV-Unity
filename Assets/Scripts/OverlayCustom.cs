@@ -47,9 +47,9 @@ public class OverlayCustom : MonoBehaviour
 
 			var liveDataCustom = LiveData.Instance.liveDataCustom[ index ];
 
-			layer1_ImageSettings.carIdx = liveDataCustom.carIdx;
-			layer2_ImageSettings.carIdx = liveDataCustom.carIdx;
-			layer3_ImageSettings.carIdx = liveDataCustom.carIdx;
+			layer1_ImageSettings.carIdx = liveDataCustom.carIdx1;
+			layer2_ImageSettings.carIdx = liveDataCustom.carIdx2;
+			layer3_ImageSettings.carIdx = liveDataCustom.carIdx3;
 
 			textLayer1_Text.text = liveDataCustom.textLayer1;
 			textLayer1.SetColor( liveDataCustom.textLayer1Color );

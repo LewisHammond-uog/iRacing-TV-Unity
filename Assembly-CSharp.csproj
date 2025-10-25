@@ -88,6 +88,8 @@
     <Compile Include="Assets\EasyTransitions\Scripts\TransitionManager.cs" />
     <Compile Include="Assets\Scripts\LiveDataLapComp.cs" />
     <Compile Include="Assets\Scripts\Data\ChampDisplay.cs" />
+    <Compile Include="Assets\Scripts\OverlayPodium.cs" />
+    <Compile Include="Assets\Scripts\Country\CountryFlagRef.cs" />
     <Compile Include="Assets\Scripts\OverlayTrackMap.cs" />
     <Compile Include="Assets\Scripts\TextSettings.cs" />
     <Compile Include="Assets\Scripts\LiveDataSteamVr.cs" />
@@ -126,22 +128,29 @@
     <Compile Include="Assets\Scripts\OverlayIntro.cs" />
     <Compile Include="Assets\EasyTransitions\Demo\DemoLoadScene.cs" />
     <Compile Include="Assets\Scripts\Program.cs" />
+    <Compile Include="Assets\Scripts\Data\QuickTest.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Library\PackageCache\com.coffee.softmask-for-ugui@ff25a459568f\Shaders\SoftMask.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\EasyTransitions\Shaders\AdditiveColor.shader" />
+    <None Include="Library\PackageCache\com.coffee.softmask-for-ugui@ff25a459568f\Shaders\Hidden-UI-TerminalMaskingShape.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Library\PackageCache\com.coffee.softmask-for-ugui@ff25a459568f\package.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\UIFadeBottom.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Packages\com.unity.renderstreaming@45177a7c40ea\package.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Library\PackageCache\com.coffee.softmask-for-ugui@ff25a459568f\Shaders\Hidden-UI-Default-SoftMaskable.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Library\PackageCache\com.coffee.softmask-for-ugui@ff25a459568f\Shaders\Hidden-UI-SoftMask.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\EasyTransitions\Shaders\MultiplyColor.shader" />
@@ -252,6 +261,9 @@
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PropertiesModule">
       <HintPath>D:\Program Files\Unity Installs\6000.2.6f2\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
@@ -480,6 +492,9 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>G:\Testing\iRacing-TV-Unity\Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Coffee.SoftMaskForUGUI.R">
+      <HintPath>G:\Testing\iRacing-TV-Unity\Library\PackageCache\com.coffee.softmask-for-ugui@ff25a459568f\Runtime\Coffee.SoftMaskForUGUI.R.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>G:\Testing\iRacing-TV-Unity\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
@@ -925,6 +940,9 @@
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>G:\Testing\iRacing-TV-Unity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.003">
+      <HintPath>G:\Testing\iRacing-TV-Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.WebRTC.Editor">
       <HintPath>G:\Testing\iRacing-TV-Unity\Library\ScriptAssemblies\Unity.WebRTC.Editor.dll</HintPath>
     </Reference>
@@ -936,6 +954,15 @@
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>G:\Testing\iRacing-TV-Unity\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.003">
+      <HintPath>G:\Testing\iRacing-TV-Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VectorGraphics.Editor">
+      <HintPath>G:\Testing\iRacing-TV-Unity\Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VectorGraphics">
+      <HintPath>G:\Testing\iRacing-TV-Unity\Library\ScriptAssemblies\Unity.VectorGraphics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.AIIntegration.Editor">
       <HintPath>G:\Testing\iRacing-TV-Unity\Library\ScriptAssemblies\Unity.2D.Sprite.AIIntegration.Editor.dll</HintPath>
@@ -967,6 +994,14 @@
     <ProjectReference Include="Unity.RenderStreaming.csproj">
       <Project>{4c487296-4d97-b80d-5212-dfc00acce503}</Project>
       <Name>Unity.RenderStreaming</Name>
+    </ProjectReference>
+    <ProjectReference Include="Coffee.SoftMaskForUGUI.csproj">
+      <Project>{7ef4a726-6490-7aec-a3a2-bfc72a6dbffa}</Project>
+      <Name>Coffee.SoftMaskForUGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Coffee.SoftMaskForUGUI.Editor.csproj">
+      <Project>{bbc12963-7a01-5026-dd54-888716c3ff86}</Project>
+      <Name>Coffee.SoftMaskForUGUI.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderStreaming.Editor.csproj">
       <Project>{821a2d23-a656-0d9b-ba70-abce8bec4e60}</Project>

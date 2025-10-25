@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2a9bd168-4f81-e0b4-f291-9ab4048eb104}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.SoftMaskForUGUI.Editor", "Coffee.SoftMaskForUGUI.Editor.csproj", "{bbc12963-7a01-5026-dd54-888716c3ff86}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderStreaming.Editor", "Unity.RenderStreaming.Editor.csproj", "{821a2d23-a656-0d9b-ba70-abce8bec4e60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AYellowpaper.SerializedCollections", "AYellowpaper.SerializedCollections.csproj", "{6e59a2fa-6b61-7b31-1f52-d47617f14277}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderStreaming", "Unity.RenderStreaming.csproj", "{4c487296-4d97-b80d-5212-dfc00acce503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee.SoftMaskForUGUI", "Coffee.SoftMaskForUGUI.csproj", "{7ef4a726-6490-7aec-a3a2-bfc72a6dbffa}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderStreaming.RuntimeTests", "Unity.RenderStreaming.RuntimeTests.csproj", "{cca27704-2d75-48b0-e4f5-2ad548754fab}"
 EndProject
@@ -26,12 +30,16 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2a9bd168-4f81-e0b4-f291-9ab4048eb104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2a9bd168-4f81-e0b4-f291-9ab4048eb104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bbc12963-7a01-5026-dd54-888716c3ff86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bbc12963-7a01-5026-dd54-888716c3ff86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{821a2d23-a656-0d9b-ba70-abce8bec4e60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{821a2d23-a656-0d9b-ba70-abce8bec4e60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6e59a2fa-6b61-7b31-1f52-d47617f14277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6e59a2fa-6b61-7b31-1f52-d47617f14277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4c487296-4d97-b80d-5212-dfc00acce503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4c487296-4d97-b80d-5212-dfc00acce503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ef4a726-6490-7aec-a3a2-bfc72a6dbffa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ef4a726-6490-7aec-a3a2-bfc72a6dbffa}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{cca27704-2d75-48b0-e4f5-2ad548754fab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{cca27704-2d75-48b0-e4f5-2ad548754fab}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f70c7871-cdee-365f-aad9-efd4594126a7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
