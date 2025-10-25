@@ -18,6 +18,8 @@ public class OverlayPodium : MonoBehaviour
         public ImageSettings[] p1Images;
         public ImageSettings[] p2Images;
         public ImageSettings[] p3Images;
+
+        [SerializeField] public TMP_Text classTitle;
         
         [SerializeField] public TMP_Text p1Given;
         [SerializeField] public TMP_Text p1Family;
@@ -80,6 +82,8 @@ public class OverlayPodium : MonoBehaviour
                 p3Given.text = p3.Length > 0 ? p3[0] : "";
                 p3Family.text = p3.Length > 1 ? p3[1] : "";
                 p3Flag.sprite = p3.Length > 2 ? flagRef.TryGetCountryCodeImg(p3[2]) : null;
+
+                classTitle.text = liveDataCustom.textLayer4;
             }
         }
 }

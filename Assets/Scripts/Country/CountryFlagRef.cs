@@ -8,9 +8,21 @@ namespace DefaultNamespace.Country
 	public class CountryFlagRef : ScriptableObject
 	{
 		[SerializeField] public SerializedDictionary<string, Sprite> codeToImg;
+		[SerializeField] public Sprite defaultSprite;
+		
+		private readonly Dictionary<string, string> translations = new Dictionary<string, string>()
+		{
+			{"nir", "gb-nir"},
+			{"eng", "gb-eng"},
+			{"sct", "gb-sct"},
+			{"ct", "es-ct"},
+			{"ga", "es-ga"},
+			{"pv", "es-pv"}
+		};
 
 		public Sprite TryGetCountryCodeImg(string code)
 		{
+			code = code.ToLower();
 			if (codeToImg.TryGetValue(code, out Sprite s))
 				return s;
 			
@@ -21,10 +33,14 @@ namespace DefaultNamespace.Country
 					return s;
 			}
 
-			// If all fails, try with dash removed (just in case)
-			string codeNoDash = code.Replace("-", "");
-			codeToImg.TryGetValue(codeNoDash, out s);
-			return s; // will be null if not found
+			if (translations.TryGetValue(code, out string fixedCode))
+			{
+				if (codeToImg.TryGetValue(fixedCode, out s))
+					return s;
+			}
+			
+			
+			return defaultSprite; // will be null if not found
 		}
 	}
 }
