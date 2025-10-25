@@ -10161,6 +10161,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 67960868}
     m_Modifications:
+    - target: {fileID: 2099285459851359752, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862705440595639528, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256697206453501462, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3659841450393680952, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
       propertyPath: m_Name
       value: PodiumSmol
@@ -10173,15 +10185,15 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2862705440595639528, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
+    - target: {fileID: 5058183424387226742, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3256697206453501462, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
+    - target: {fileID: 5222827757210647644, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2099285459851359752, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
+    - target: {fileID: 6802160776892379204, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -10275,18 +10287,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8208319601269935020, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6802160776892379204, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5058183424387226742, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5222827757210647644, guid: 936a1da8ccad5ac43b9905086dbeb1a8, type: 3}
-      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

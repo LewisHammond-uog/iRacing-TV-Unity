@@ -49,10 +49,7 @@ public class CountryFlagRefEditor : Editor
 			if (sprite != null)
 			{
 				string key = Path.GetFileNameWithoutExtension(path); // filename as key
-				if (!flagRef.codeToImg.ContainsKey(key))
-				{
-					flagRef.codeToImg.Add(key, sprite);
-				}
+				flagRef.codeToImg.TryAdd(key, sprite);
 			}
 		}
 

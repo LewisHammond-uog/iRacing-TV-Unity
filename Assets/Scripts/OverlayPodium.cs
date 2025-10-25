@@ -1,6 +1,8 @@
 ﻿using System;
+using DefaultNamespace.Country;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class OverlayPodium : MonoBehaviour
@@ -26,6 +28,12 @@ public class OverlayPodium : MonoBehaviour
         [SerializeField] public TMP_Text p3Given;
         [SerializeField] public TMP_Text p3Family;
 
+        [SerializeField] public Image p1Flag;
+        [SerializeField] public Image p2Flag;
+        [SerializeField] public Image p3Flag;
+
+        [SerializeField] public CountryFlagRef flagRef;
+        
         [NonSerialized] public long indexLiveData;
     
         public bool update = true;
@@ -63,12 +71,15 @@ public class OverlayPodium : MonoBehaviour
                 
                 p1Given.text = p1.Length > 0 ? p1[0] : "";
                 p1Family.text = p1.Length > 1 ? p1[1] : "";
+                p1Flag.sprite = p1.Length > 2 ? flagRef.TryGetCountryCodeImg(p1[2]) : null;
                 
                 p2Given.text = p2.Length > 0 ? p2[0] : "";
                 p2Family.text = p2.Length > 1 ? p2[1] : "";
+                p2Flag.sprite = p2.Length > 2 ? flagRef.TryGetCountryCodeImg(p2[2]) : null;
                 
                 p3Given.text = p3.Length > 0 ? p3[0] : "";
                 p3Family.text = p3.Length > 1 ? p3[1] : "";
+                p3Flag.sprite = p3.Length > 2 ? flagRef.TryGetCountryCodeImg(p3[2]) : null;
             }
         }
 }
